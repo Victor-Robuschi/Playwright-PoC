@@ -22,6 +22,10 @@ export class CheckBoxPage{
     readonly CheckDocuments: Locator;
     readonly CheckDownloads: Locator;
     readonly FileNotes : Locator
+    readonly CheckResult : Locator;
+    readonly check_result_home_checked: string = "You have selected :homedesktopnotescommandsdocumentsworkspacereactangularveuofficepublicprivateclassifiedgeneraldownloadswordFileexcelFile";
+    readonly check_result_desktop_checked : string = "You have selected :desktopnotescommands"
+    readonly FileCommands : Locator;
 
     constructor(page: Page) {
         this.page = page;
@@ -34,6 +38,9 @@ export class CheckBoxPage{
         this.ToggleDocumentsFolder = page.locator('li').filter({ hasText: /^Documents$/ }).getByLabel('Toggle')
         this.ToggleDownloadsFolder = page.locator('li').filter({ hasText: /^Downloads$/ }).getByLabel('Toggle')
         this.FileNotes = page.locator('label').filter({ hasText: 'Notes' }).locator('span').first()
+        this.FileCommands = page.locator('label').filter({ hasText: 'Commands' }).locator('span').first()
+        this.CheckHome = page.getByText('Home')
+        this.CheckResult = page.locator('#result')
   }
 
 
@@ -48,4 +55,6 @@ export class CheckBoxPage{
   async collapseallbutton() {
     await this.CollapseAllButton.click()
   } 
+
+  
 }
