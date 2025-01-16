@@ -49,7 +49,7 @@ test('check/uncheck a file/folder', async ({ checkboxpage }) => {
     await expect(checkboxpage.CheckResult).toContainText(checkboxpage.check_result_home_checked)
 })
 
-test.only('Check/Uncheck Parent Applies to All Child Folders/Files', async ({ checkboxpage }) => {
+test('Check/Uncheck Parent Applies to All Child Folders/Files', async ({ checkboxpage }) => {
     await checkboxpage.checkboxpagebutton()
     await checkboxpage.ToggleHomeFolder.click()
     await checkboxpage.ToggleDesktopFolder.click()
