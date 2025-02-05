@@ -1,0 +1,3 @@
+As a user i wanna be able to klick on a raido button and it then gets selected
+As a user i wanna have a confermation of what i have selected
+As a owner i want there to be a "No" radio button but i dont want the user to be able to klick on the "No" radio button 

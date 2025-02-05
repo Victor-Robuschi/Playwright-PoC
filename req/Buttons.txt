@@ -1,0 +1,3 @@
+DONE AS a user i wanna be able to doubleclick
+DONE AS a user i wanna be able to rightclick
+DONE AS a user i wanna be able to leftclick (i.e normal click)

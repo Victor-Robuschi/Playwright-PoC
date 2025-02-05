@@ -1,0 +1,19 @@
+
+        TABLE
+DONE As a user i wanna be able to see the table
+DONE As a user i wanna be able to Add new entries to the table
+DONE As a user i wanna be able to do search inqueries about the table
+DONE As a user i wanna be able to select the number of rows that is visable
+DONE As a user i wanna be able to switch between pages
+DONE As a user i wanna be able to edit entries
+DONE As a user i wanna be able to delete entries
+
+        ENTRIES
+F.Name : letter/number
+L.name : letter/number
+Email : format = X@X.XX DONE
+Age : Only numbers DONE
+Salary : Only numbers DONE
+Department : letter/number
+
+DONE No fields can be emtpy

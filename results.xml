@@ -1,0 +1,189 @@
+<testsuites id="" name="" tests="29" failures="0" skipped="0" errors="0" time="37.703773999999996">
+<testsuite name="buttons.spec.ts" timestamp="2025-02-05T13:17:40.802Z" hostname="chromium" tests="3" failures="0" skipped="0" time="13.951" errors="0">
+<testcase name="dynamic click" classname="buttons.spec.ts" time="5.302">
+<system-out>
+<![CDATA[Last URL: https://demoqa.com/buttons
+]]>
+</system-out>
+</testcase>
+<testcase name="doubleclick" classname="buttons.spec.ts" time="4.176">
+<system-out>
+<![CDATA[Last URL: https://demoqa.com/buttons
+]]>
+</system-out>
+</testcase>
+<testcase name="rightclick" classname="buttons.spec.ts" time="4.473">
+<system-out>
+<![CDATA[Last URL: https://demoqa.com/buttons
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="check_box.spec.ts" timestamp="2025-02-05T13:17:40.802Z" hostname="chromium" tests="6" failures="0" skipped="0" time="22.978" errors="0">
+<testcase name="Checkbox expand all" classname="check_box.spec.ts" time="4.602">
+<system-out>
+<![CDATA[Last URL: https://demoqa.com/checkbox
+]]>
+</system-out>
+</testcase>
+<testcase name="Checkbox collaped all" classname="check_box.spec.ts" time="3.352">
+<system-out>
+<![CDATA[Last URL: https://demoqa.com/checkbox
+]]>
+</system-out>
+</testcase>
+<testcase name="Toggle open/close folders" classname="check_box.spec.ts" time="4.316">
+<system-out>
+<![CDATA[Last URL: https://demoqa.com/checkbox
+]]>
+</system-out>
+</testcase>
+<testcase name="Parent folder toggling does not affect child folder state" classname="check_box.spec.ts" time="3.547">
+<system-out>
+<![CDATA[Last URL: https://demoqa.com/checkbox
+]]>
+</system-out>
+</testcase>
+<testcase name="check/uncheck a file/folder" classname="check_box.spec.ts" time="3.883">
+<system-out>
+<![CDATA[Last URL: https://demoqa.com/checkbox
+]]>
+</system-out>
+</testcase>
+<testcase name="Check/Uncheck Parent Applies to All Child Folders/Files" classname="check_box.spec.ts" time="3.278">
+<system-out>
+<![CDATA[Last URL: https://demoqa.com/checkbox
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="links.spec.ts" timestamp="2025-02-05T13:17:40.802Z" hostname="chromium" tests="9" failures="0" skipped="0" time="31.124" errors="0">
+<testcase name="Simple link opens correct URL" classname="links.spec.ts" time="3.647">
+<system-out>
+<![CDATA[Last URL: https://demoqa.com/links
+]]>
+</system-out>
+</testcase>
+<testcase name="Dynamic link opens correct URL" classname="links.spec.ts" time="4.419">
+<system-out>
+<![CDATA[Last URL: https://demoqa.com/links
+]]>
+</system-out>
+</testcase>
+<testcase name="created, 201" classname="links.spec.ts" time="3.014">
+<system-out>
+<![CDATA[Last URL: https://demoqa.com/links
+]]>
+</system-out>
+</testcase>
+<testcase name="no-content, 204" classname="links.spec.ts" time="2.875">
+<system-out>
+<![CDATA[Last URL: https://demoqa.com/links
+]]>
+</system-out>
+</testcase>
+<testcase name="moved, 301" classname="links.spec.ts" time="3.074">
+<system-out>
+<![CDATA[Last URL: https://demoqa.com/links
+]]>
+</system-out>
+</testcase>
+<testcase name="bad-request, 400" classname="links.spec.ts" time="3.604">
+<system-out>
+<![CDATA[Last URL: https://demoqa.com/links
+]]>
+</system-out>
+</testcase>
+<testcase name="unauthorized, 401" classname="links.spec.ts" time="3.258">
+<system-out>
+<![CDATA[Last URL: https://demoqa.com/links
+]]>
+</system-out>
+</testcase>
+<testcase name="forbidden, 403" classname="links.spec.ts" time="3.858">
+<system-out>
+<![CDATA[Last URL: https://demoqa.com/links
+]]>
+</system-out>
+</testcase>
+<testcase name="not-found, 404" classname="links.spec.ts" time="3.375">
+<system-out>
+<![CDATA[Last URL: https://demoqa.com/links
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="radio_button.spec.ts" timestamp="2025-02-05T13:17:40.802Z" hostname="chromium" tests="2" failures="0" skipped="0" time="8.81" errors="0">
+<testcase name="Selects Radio Button-Yes on Click" classname="radio_button.spec.ts" time="5.781">
+<system-out>
+<![CDATA[Last URL: https://demoqa.com/radio-button
+]]>
+</system-out>
+</testcase>
+<testcase name="Selects Radio Button-Impressive on Click" classname="radio_button.spec.ts" time="3.029">
+<system-out>
+<![CDATA[Last URL: https://demoqa.com/radio-button
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="text_box.spec.ts" timestamp="2025-02-05T13:17:40.802Z" hostname="chromium" tests="1" failures="0" skipped="0" time="3.607" errors="0">
+<testcase name="Text Box" classname="text_box.spec.ts" time="3.607">
+<system-out>
+<![CDATA[Last URL: https://demoqa.com/text-box
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="web_table.spec.ts" timestamp="2025-02-05T13:17:40.802Z" hostname="chromium" tests="8" failures="0" skipped="0" time="62.455" errors="0">
+<testcase name="webtable X" classname="web_table.spec.ts" time="3.028">
+<system-out>
+<![CDATA[[33m20[39m
+Last URL: https://demoqa.com/webtables
+]]>
+</system-out>
+</testcase>
+<testcase name="search" classname="web_table.spec.ts" time="5.17">
+<system-out>
+<![CDATA[Last URL: https://demoqa.com/webtables
+]]>
+</system-out>
+</testcase>
+<testcase name="Delete" classname="web_table.spec.ts" time="11.07">
+<system-out>
+<![CDATA[Last URL: https://demoqa.com/webtables
+]]>
+</system-out>
+</testcase>
+<testcase name="Pagination" classname="web_table.spec.ts" time="14.317">
+<system-out>
+<![CDATA[Last URL: https://demoqa.com/webtables
+]]>
+</system-out>
+</testcase>
+<testcase name="Add single entry and verify" classname="web_table.spec.ts" time="10.41">
+<system-out>
+<![CDATA[Last URL: https://demoqa.com/webtables
+]]>
+</system-out>
+</testcase>
+<testcase name="Edit first entry and verify" classname="web_table.spec.ts" time="9.672">
+<system-out>
+<![CDATA[Last URL: https://demoqa.com/webtables
+]]>
+</system-out>
+</testcase>
+<testcase name="Add invalid entry and verify screenshot" classname="web_table.spec.ts" time="4.54">
+<system-out>
+<![CDATA[Last URL: https://demoqa.com/webtables
+]]>
+</system-out>
+</testcase>
+<testcase name="Edit entry with incorrect email, age and salary format" classname="web_table.spec.ts" time="4.248">
+<system-out>
+<![CDATA[Last URL: https://demoqa.com/webtables
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
