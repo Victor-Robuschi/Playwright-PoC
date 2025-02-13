@@ -6,6 +6,8 @@ import { test as base, Locator, Page } from "@playwright/test";
 import { WebTable } from "../POM/Elements/WebTable";
 import { Buttons } from "../POM/Elements/Buttons";
 import { Links } from "../POM/Elements/Links";
+import { UpDownLoad } from "../POM/Elements/UpDownLoad";
+import { DynamicProperties } from "../POM/Elements/DyProp";
 
 type test = {
   checkboxpage: CheckBoxPage;
@@ -15,6 +17,8 @@ type test = {
   webtable : WebTable;
   buttons: Buttons;
   links: Links;
+  updownload: UpDownLoad
+  dynamicproperties: DynamicProperties;
   forEachTest: void;
 };
 
@@ -46,6 +50,14 @@ export const test = base.extend<test>({
 
   links: async ({ page }, use) => {
     await use(new Links(page));
+  },
+
+  updownload: async ({ page }, use) => {
+    await use(new UpDownLoad(page));
+  },
+
+  dynamicproperties: async ({ page }, use) => {
+    await use(new DynamicProperties(page));
   },
 
   forEachTest: [ async ({ page, homepage }, use) => {

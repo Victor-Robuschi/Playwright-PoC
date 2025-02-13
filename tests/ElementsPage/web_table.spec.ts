@@ -1,6 +1,6 @@
 import { expect } from "@playwright/test";
-import { test, repeatAction } from "../fixtures/fixtures";
-import { testEntries } from "../testdata/test-data";
+import { test, repeatAction } from "../../fixtures/fixtures";
+import { testEntries } from "../../testdata/test-data";
 
 test("webtable X", async ({ webtable }) => {
   await webtable.webtablepagebutton();

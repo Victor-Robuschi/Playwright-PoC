@@ -1,4 +1,4 @@
-import { test } from "../fixtures/fixtures";
+import { test } from "../../fixtures/fixtures";
 
 test("Simple link opens correct URL", async ({ links }) => {
   await links.openPageLinks();
