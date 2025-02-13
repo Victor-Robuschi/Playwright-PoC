@@ -1,4 +1,4 @@
-import { test } from "../fixtures/fixtures";
+import { test } from "../../fixtures/fixtures";
 
 test("dynamic click", async ({ buttons }) =>{
     await buttons.openPageButtons();

@@ -1,7 +1,7 @@
 import assert from 'assert';
-import { test} from '../fixtures/fixtures';
+import { test} from '../../fixtures/fixtures';
 import { expect } from '@playwright/test';
-import { CheckBoxPage } from '../POM/Elements/CheckBox';
+import { CheckBoxPage } from '../../POM/Elements/CheckBox';
 
 
 test('Checkbox expand all', async ({ checkboxpage, page }) => {
