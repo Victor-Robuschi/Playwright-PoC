@@ -2,12 +2,13 @@ import { CheckBoxPage } from "../POM/Elements/CheckBox";
 import { TextBox } from "../POM/Elements/Textbox";
 import { HomePage } from "../POM/Elements/HomePage";
 import { RadioButton } from "../POM/Elements/RadioButton";
-import { test as base, Locator, Page } from "@playwright/test";
+import { test as base, Browser, Locator, Page } from "@playwright/test";
 import { WebTable } from "../POM/Elements/WebTable";
 import { Buttons } from "../POM/Elements/Buttons";
 import { Links } from "../POM/Elements/Links";
 import { UpDownLoad } from "../POM/Elements/UpDownLoad";
 import { DynamicProperties } from "../POM/Elements/DyProp";
+import { Forms } from "../POM/Forms/Forms";
 
 type test = {
   checkboxpage: CheckBoxPage;
@@ -19,6 +20,7 @@ type test = {
   links: Links;
   updownload: UpDownLoad
   dynamicproperties: DynamicProperties;
+  forms: Forms;
   forEachTest: void;
 };
 
@@ -60,6 +62,11 @@ export const test = base.extend<test>({
     await use(new DynamicProperties(page));
   },
 
+  forms: async ({ page }, use) => {
+    await use(new Forms(page));
+  },
+  
+  
   forEachTest: [ async ({ page, homepage }, use) => {
       // This code runs before every test.
 

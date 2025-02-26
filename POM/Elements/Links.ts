@@ -97,7 +97,7 @@ export class Links {
 
 
      async xxx(linkLocator: Locator) {
-    const [newPage] = await Promise.all([
+      const [newPage] = await Promise.all([
       this.page.waitForEvent('popup'),
       linkLocator.click(),
     ]);
