@@ -1,4 +1,3 @@
-import exp from "constants";
 import { test } from "../../fixtures/fixtures";
 import { expect } from "@playwright/test";
 
@@ -24,7 +23,7 @@ test('Button enables after 5 seconds', async ({ dynamicproperties }) => {
     //This checks if the button is disabled
     await expect(dynamicproperties.ButtonEnable5kMS).toBeDisabled();
     //This checks if the button is enabled and playwright retries until it is enabled
-    await expect(dynamicproperties.ButtonEnable5kMS).toBeEnabled({});
+    await expect(dynamicproperties.ButtonEnable5kMS).toBeEnabled({timeout: 6000});
 })
 
 test('Button text changes color', async ({ dynamicproperties }) => {

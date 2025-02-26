@@ -44,7 +44,7 @@ export class RadioButton {
   }
 
   async assertTextIs(expectedText: string) {
-    await expect(this.TextSuccess).toHaveText(expectedText);
+    await expect(this.TextSuccess).toHaveText(expectedText, { timeout: 600 });
   }
 
 }
