@@ -1,0 +1,8 @@
+DONE As a user i wanna be able to expand all levels of the file structure
+DONE As a user i wanna be able to collapse all levels of the file structure 
+
+DONE As a user i wanna be able to toggle open and/or close folders,
+DONE As a user i do not want closing/opening a parent folder to effect the child folders open/close status
+
+DONE As a user i want to be able to check/uncheck a file/folder
+DONE As a user if i check/uncheck a parent i want all child folder/files also to be checked/unchecked

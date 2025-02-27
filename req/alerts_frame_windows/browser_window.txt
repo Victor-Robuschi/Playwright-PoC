@@ -1,0 +1,6 @@
+DONE Open new tab, verify expected text on new tab
+
+DONE Open new window, verify expected text on new window
+
+DONE Open new window message, verify expected text on new window message
+

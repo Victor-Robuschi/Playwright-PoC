@@ -2,7 +2,12 @@
   "name": "playwright-poc",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "npm run codegen": "npx playwright codegen https://demoqa.com/",
+    "test": "npx playwright test",
+    "testui": "npx playwright test --ui",
+    "testdebug": "npx playwright test --debug"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

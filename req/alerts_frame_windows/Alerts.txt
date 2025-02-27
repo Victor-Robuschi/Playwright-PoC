@@ -1,0 +1,8 @@
+Click on alert button, verify popup and click/dismiss it
+
+Click delayed alert button, wait 5 sec, verify diolog window, accept/dismiss it.
+
+Click on alert button, verify popup, OK it, verify the expected text explaining what you have selected
+Click on alert button, verify popup, CANCEL it, verify the expected text explaining what you have selected
+
+Click on alert button, verify popup, enter in a name, verify the expected text explaining what name you have entered in 

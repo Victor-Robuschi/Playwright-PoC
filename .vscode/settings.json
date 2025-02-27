@@ -1,2 +1,9 @@
 {
+    "cSpell.words": [
+        "dynamicproperties",
+        "getrandomid",
+        "newrandomid",
+        "randomid"
+    ],
+    "npm-scripts.showStartNotification": false
 }

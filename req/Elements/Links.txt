@@ -1,0 +1,8 @@
+DONE Check diffent links and the status code they responde with
+    created 201
+    no content 204
+    moved 301
+    bad request 400
+    unauthorized 401
+    forbidden 403
+    not found 404

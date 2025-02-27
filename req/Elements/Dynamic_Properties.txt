@@ -1,0 +1,34 @@
+
+
+✓ Text has random ID ✓
+    This element will have it's id be randomize while the text will remain the same.
+    The random id it self is not important, only that it is random between page loads
+       ✓ 1, find the element by text
+       ✓ 2, save the id variable
+       ✓ 3, refresh the page
+       ✓ 4, assert that the new id is not the same as the saved id 
+
+Will be enable 5 seconds (Can be clicked after 5 sec)
+    A button that cannot be clicked until 5 seconds has passed
+    The button is visible before 5 seconds
+        1, find the element by role
+        2, assert that the element is disabled before 5 sec
+        3, wait for 5 sec
+        4, assert that the element is enable
+
+Color Change
+    The text of the button Changes color
+    From white(rgb(255, 255, 255), #ffffff) to red(rgb(220, 53, 69), #dc3545!important)
+        1, find element by role
+        2, assert the color before 5 sec
+        2 assert the color after 5 sec
+
+
+
+Visible after 5 sec
+    Button will not be visible for 5 seconds
+    After 5 seconds the button will show
+        1, find the element
+        2, check that is not visible
+        3, wait 5 seconds and check that it is visible
+
