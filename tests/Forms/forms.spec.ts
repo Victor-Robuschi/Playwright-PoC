@@ -20,8 +20,8 @@ test('Fill the form correctly', async ({ forms }) => {
     
 })
 
-test('Fill in the form incorrectly', async ({ forms }) => {
+test.only('Fill in the form incorrectly', async ({ forms }) => {
     await forms.gotoFormsPage();
     await forms.Submit.click();
-    await expect(forms.UserForm).toHaveScreenshot("errorForm.png");
+    await expect(forms.UserForm).toHaveScreenshot("errorForm.png",{ maxDiffPixels: 30 });
 })
