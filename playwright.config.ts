@@ -36,7 +36,7 @@ export default defineConfig({
       args: ["--start-maximized"],
     },
     screenshot: 'on',
-    video: 'on',
+    video: {mode: 'on', size: {width: 1920, height: 1080}},
     
     
   },
